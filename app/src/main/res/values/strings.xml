@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">win_2</string>
+    <string name="main_button">GO</string>
+    <string name="main_bottomText1">We were awarded</string>
+    <string name="main_bottomText2">by Cannes Lions, the FWA and</string>
+    <string name="main_bottomText3">50+ international and local awards</string>
+    <string name="win">Win</string>
+    <string name="pay">Pay</string>
+    <string name="balance">My Balance</string>
+    <string name="rupiah">Rp.</string>
+    <string name="transfer">Transfer</string>
+    <string name="reknumber">Rek Number</string>
+    <string name="to">To</string>
+    <string name="amount">Transfer Amount</string>
+    <string name="confirmtrans">Confirm</string>
+    <string name="congrats">CONGRATULATION</string>
+    <string name="success">Transfer Success</string>
+    <string name="transfered">You have sucessfully transfered to</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="bank_prompt">Choose Bank</string>
+    <string name="please_input_pin">please input your pin</string>
+    <string name="voucher">Voucher</string>
+    <string name="about">About Us</string>
+    <string name="signout">Sign Out</string>
+
+    <string-array name="banks">
+        <item></item>
+        <item>BCA</item>
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>CIMB Niaga</item>
+        <item>Danamon</item>
+        <item>UOB</item>
+    </string-array>
+
+</resources>

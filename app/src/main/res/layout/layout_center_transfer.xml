@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout1">
+
+        <include layout="@layout/layout_top_transfer"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLayout1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@id/relLayout2"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reknumber"
+            android:textColor="@color/grey"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_13sdp"
+            android:id="@+id/reknumber"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2287 0091 819"
+            android:layout_below="@+id/reknumber"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textColor="@color/background"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/rekening"/>
+
+        <Spinner
+            android:id="@+id/spinnerbank"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/rekening"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:entries="@array/banks"
+            android:prompt="@string/bank_prompt"
+            style="@style/spinnerStyle"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relLayout2"
+        android:id="@+id/relLayout3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:id="@+id/buttonConfirm"
+            android:textSize="@dimen/_13sdp"
+            android:text="@string/confirmtrans"
+            android:background="@color/button_red"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/ic_bottom_name"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

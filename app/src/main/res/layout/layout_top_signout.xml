@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/topBalance">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@color/background"
+        android:id="@+id/relLayout1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_1"
+            android:id="@+id/back_button_signout"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Sign Out"
+            android:textSize="@dimen/_17sdp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/back_button_signout"
+            android:id="@+id/payText"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relLayout1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/group86"
+            android:id="@+id/confettimenuutama"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
